@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apes - Gallery</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/scaffolding.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <style>
+        .hero {
+            height: calc(100vh - 84px);
+            padding-top: 84px;
+            background: black url("/images/large/p043lqmb.jpg") no-repeat center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero__title {
+            color: white;
+        }
+
+        @media (max-width: 991px) {
+            .hero {
+                margin-bottom: 50px;
+            }
+        }
+
+        .image__picture img {
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <ul class="menu">
+        <li class="menu__item">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="menu__item">
+            <a href="page1.html">Gallery</a>
+        </li>
+        <li class="menu__item">
+            <a href="page2.html">Page 2</a>
+        </li>
+        <li class="menu__item">
+            <a href="page3.html">Page 3</a>
+        </li>
+        <li class="menu__item">
+            <a href="page4.html">Page 4</a>
+        </li>
+    </ul>
+</header>
+
+<section class="hero">
+    <h1 class="hero__title">
+        Gallery
+    </h1>
+</section>
+
+<section class="image">
+    <picture class="image__responsive-img">
+        <source media="(min-width: 991px)" srcset="/images/large/p039zg26.jpg">
+        <source media="(min-width: 767px)" srcset="/images/md/p026105t-baby-monkey-images-5.jpg">
+        <img src="/images/small/db0dac5d9dffa829c994e19e47466baf.jpg" alt="Apes">
+    </picture>
+</section>
+
+<footer class="footer">
+    <ul class="footer__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page1.html">Gallery</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+        <li><a href="page4.html">Page 4</a></li>
+    </ul>
+    <ul class="footer__contact">
+        <li>Antoine Chassagne</li>
+        <li><a href="mailto:antoine.chassagne@me.com">antoine.chassagne@me.com</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
