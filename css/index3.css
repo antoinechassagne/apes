@@ -1,0 +1,39 @@
+h1 {
+    padding: 120px 0 60px;
+    text-align: center;
+}
+
+/*
+* -----------------------------------------------------------------------------
+* SECTION 1 : GRID
+*-----------------------------------------------------------------------------
+*/
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+@media (max-width: 991px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.grid__item h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.grid__item img {
+    width: 100%;
+    object-fit: cover;
+}

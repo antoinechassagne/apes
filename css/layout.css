@@ -23,7 +23,7 @@
 /*  Body background color changes on devices screen */
 
 body {
-    background-color: red;
+    background-color: #FFF;
 }
 
 @media (max-width: 991px) {
