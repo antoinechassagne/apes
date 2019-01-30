@@ -1,5 +1,39 @@
+h1 {
+    text-align: center;
+    padding: 120px 0 100px;
+}
+
 /*
 * -----------------------------------------------------------------------------
-* SECTION 1 : HERO
+* SECTION 1 : NEWS
 *------------------------------------------------------------------------------
 */
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.news__item {
+    padding: 20px;
+    width: calc(100% / 3);
+}
+
+@media (max-width: 767px) {
+    .news__item {
+        width: 100%;
+    }
+}
+
+.news__item img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.news__item h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+

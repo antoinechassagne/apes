@@ -1,0 +1,28 @@
+/*
+* -----------------------------------------------------------------------------
+* TITLE
+*------------------------------------------------------------------------------
+*/
+
+h1 {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.contact img {
+    transform: rotate(0.5turn);
+    margin: 100px auto;
+}
+
+.contact_2 img {
+    margin: 100px auto;
+    transition: 0.5s
+}
+
+.contact_2 img:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    text-align: center;
+}
