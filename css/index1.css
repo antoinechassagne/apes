@@ -7,7 +7,7 @@
 .hero {
     height: calc(100vh - 84px);
     padding-top: 84px;
-    background: black url("./images/large/p043lqmb.jpg") no-repeat center;
+    background: black url("../images/large/p043lqmb.jpg") no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -59,6 +59,6 @@
 */
 
 .image--bg {
-    background: url("./images/large/Un-capucin-a-poitrine-jaune-est-ne-au-zoo-de-la-Palmyre.jpg") center no-repeat;
+    background: url("../images/large/Un-capucin-a-poitrine-jaune-est-ne-au-zoo-de-la-Palmyre.jpg") center no-repeat;
     background-size: cover;
 }
